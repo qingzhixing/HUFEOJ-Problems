@@ -16,6 +16,10 @@ void solution()
 	}
 	else
 	{
+		/**
+		 * n = k + x
+		 * [1, 1,..., 1 + x , ... ,1, 1] = k + x =
+		 */
 		cout << "YES" << endl;
 	}
 }

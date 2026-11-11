@@ -13,13 +13,17 @@ void solution()
 	string num;
 	cin >> num;
 	vector<i64> digits;
+
+	// 把字符映射成数字
 	for (const auto &ch : num)
 	{
-		digits.push_back(ch - 'a');
+		digits.push_back(ch - '0');
 	}
 
+	// 计算前三项和后三项之和
 	auto front = digits[0] + digits[1] + digits[2];
 	auto back = digits[3] + digits[4] + digits[5];
+
 	if (front == back)
 	{
 		cout << "YES" << endl;
