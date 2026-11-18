@@ -9,6 +9,7 @@ void solution()
 	i64 n{};
 	cin >> n;
 
+	// 单调栈
 	stack<i64> st;
 	for (int i = 1; i <= n; i++)
 	{
